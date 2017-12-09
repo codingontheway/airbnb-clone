@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbar from './navbar'
+import NavbarBuild from './navbar'
+import MainHeader from './mainHeader'
 
 function Header(){
     return(
         <div>
-            <Navbar />
-        </div>
+            <NavbarBuild />
+            <MainHeader />
+        </div>        
     )
 }
 
