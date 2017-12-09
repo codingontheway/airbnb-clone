@@ -11,7 +11,7 @@ import Footer from '../src/footer'
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='conatiner-fluid'>
         <Header />
 
       </div>

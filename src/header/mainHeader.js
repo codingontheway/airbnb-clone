@@ -1,15 +1,20 @@
 import React from 'react'
+import './mainheader.css'
 
 function MainHeader() {
     return (
-        <div>
+        <div className='offset-md-2 mainHeader'>
             <h1>Airbnb</h1>
-            <p>Book unique homes and experience a city like a local</p>
-            <span class="glyphicons glyphicons-search"></span>
-            <input
-                placeholder="Try 'Ibiza'"
-            />
-            <button>Search</button>
+            <p>Book unique homes and experience a <br /> city like a local</p>
+            <form className='input-group formMutated col-md-9'>
+                <input
+                    placeholder="Try 'Ibiza'"
+                    className='form-control inputMutated'
+                />
+                <span className="input-group-btn">
+                    <button type="submit" className="btn">submit</button>
+                </span>         
+            </form>
         </div>
     )
 }
