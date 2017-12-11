@@ -1,0 +1,21 @@
+.indExp {
+    margin-top: -10px;
+    margin-right: 20px;
+    border: 1.5px solid #c0c0c09d;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px 0  rgba(0, 0, 0, 0.103);
+    transition: 0.3s;
+}
+.indExp img{
+    width:50%;
+    height: 80px;
+    margin-left: -15px;
+}
+
+.indExp p {
+    padding-left: 20px;
+    padding-top: 22px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #484848;
+}
