@@ -15,6 +15,7 @@ class App extends Component {
       <div className='mainBodyMutated conatiner-fluid'>
         <Header />
         <Explore />
+        <Experiences />
 
       </div>
     );
