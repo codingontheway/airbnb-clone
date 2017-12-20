@@ -18,6 +18,7 @@ class App extends Component {
         <Experiences />
         <Homes />
         <FeaturedDestinations />
+        <Footer />
 
       </div>
     );

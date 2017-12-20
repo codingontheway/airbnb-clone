@@ -73,13 +73,13 @@ function Homes(){
                 <p>Homes</p>
             </div> 
         </div>
-        <div className='row offset-md-2'>
+        <div className='row offset-md-2 colHomes'>
             <Home img={home1.img} title={home1.title} details={home1.details} price={home1.price}/>
             <Home img={home2.img} title={home2.title} details={home2.details} price={home2.price}/>
             <Home img={home3.img} title={home3.title} details={home3.details} price={home3.price}/>
             <Home img={home4.img} title={home4.title} details={home4.details} price={home4.price}/>
         </div>
-        <div className='row offset-md-2'>
+        <div className='row offset-md-2 colHomes'>
             <Home img={home5.img} title={home5.title} details={home5.details} price={home5.price}/>
             <Home img={home6.img} title={home6.title} details={home6.details} price={home6.price}/>
             <Home img={home7.img} title={home7.title} details={home7.details} price={home7.price}/>

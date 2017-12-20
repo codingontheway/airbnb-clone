@@ -72,13 +72,13 @@ function Experiences(){
                     <p>Experiences</p>
                 </div> 
             </div>
-            <div className='row offset-md-2'>
+            <div className='row offset-md-2 colexp'>
                 <IndEXP img={sewing.img} title={sewing.title} details={sewing.details} price={sewing.price}/>
                 <IndEXP img={nightlife.img} title={nightlife.title} details={nightlife.details} price={nightlife.price}/>
                 <IndEXP img={photoClass.img} title={photoClass.title} details={photoClass.details} price={photoClass.price}/>
                 <IndEXP img={concert.img} title={concert.title} details={concert.details} price={concert.price}/>
             </div>
-            <div className='row offset-md-2'>
+            <div className='row offset-md-2 colexp'>
                 <IndEXP img={surf.img} title={surf.title} details={surf.details} price={surf.price}/>
                 <IndEXP img={hike.img} title={hike.title} details={hike.details} price={hike.price}/>
                 <IndEXP img={food.img} title={food.title} details={food.details} price={food.price}/>

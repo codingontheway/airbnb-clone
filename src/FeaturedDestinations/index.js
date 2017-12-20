@@ -27,7 +27,7 @@ function FeaturedDestinations(){
                     <p>Featured Destinations</p>
                 </div>
             </div>
-            <div className='row col-md-9 offset-md-2'>
+            <div className='row col-md-9 offset-md-2 coldestination'>
                     <Destination img={cities.japan[0]} title={cities.japan[1]} />
                     <Destination img={cities.paris[0]} title={cities.paris[1]} />
                     <Destination img={cities.cape[0]} title={cities.cape[1]} />
