@@ -12,7 +12,7 @@ function MainHeader() {
                     className='form-control inputMutated'
                 />
                 <span className="input-group-btn">
-                    <button type="submit" className="btn">submit</button>
+                    <button type="submit" className="btn btn-sumbit-style">Search</button>
                 </span>         
             </form>
         </div>

@@ -25,3 +25,9 @@
 .inputMutated {
     border: none;
 }
+
+.btn-sumbit-style {
+    background-color: #FF5A5F;
+    color: #eee;
+    font-weight: bold;
+}

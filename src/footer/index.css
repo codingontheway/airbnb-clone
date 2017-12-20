@@ -1,0 +1,34 @@
+.footerStyle {
+    margin-top: 50px;
+}
+
+.footerStyle hr {
+    margin-bottom: 50px;
+}
+
+.dropdownStyle {
+    padding-right: 150px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.dropdown :hover{
+    background-color: #eee;
+    color: #000;
+}
+
+.ddsec {
+    margin-top: 30px;
+}
+
+.footerHead {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footerContent {
+    color: #424242;
+    line-height: 0.7em;
+}
